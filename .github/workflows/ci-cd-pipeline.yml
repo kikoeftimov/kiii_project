@@ -41,7 +41,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: checkout repo
+      uses: actions/checkout@v4
+      
     - name: Deploy to Production
-      run: |
-        cd .
-        docker-compose -f docker-compose.yml up -d
+      run: docker-compose -f docker-compose.yml up -d
