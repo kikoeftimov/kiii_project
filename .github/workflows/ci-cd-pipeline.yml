@@ -34,7 +34,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: angelamukanova/employees:latest
+        tags: angelamukanova/kiii-project:latest
 
   deploy:
     needs: build
