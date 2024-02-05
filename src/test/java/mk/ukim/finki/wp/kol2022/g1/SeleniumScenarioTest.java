@@ -381,10 +381,10 @@ public class SeleniumScenarioTest {
         }
     }
 
-    @AfterAll
-    public static void finializeAndSubmit() throws JsonProcessingException {
-        CodeExtractor.submitSourcesAndLogs();
-    }
+//    @AfterAll
+//    public static void finializeAndSubmit() throws JsonProcessingException {
+//        CodeExtractor.submitSourcesAndLogs();
+//    }
 
     public static final String LIST_URL = "/employees";
     public static final String ADD_URL = "/employees/add";
